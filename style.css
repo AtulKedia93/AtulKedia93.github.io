@@ -21,7 +21,7 @@ body {
 #nav-fixed-left{
 	font-size: 20px;
 	font-variant: small-caps;
-	width: 180px;
+	width: 300px;
 	z-index: 1000;
 	position: fixed;
 	left: 0px;

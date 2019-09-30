@@ -21,7 +21,7 @@ body {
 #nav-fixed-left{
 	font-size: 20px;
 	font-variant: small-caps;
-	width: 300px;
+	width: 250px;
 	z-index: 1000;
 	position: fixed;
 	left: 0px;
@@ -33,7 +33,7 @@ body {
 /* Two image containers (use 25% for four, and 33.33% for three, etc) */
 .column {
   float: left;
-  width: 50%;
+  width: 40%;
   padding: 5px;
 }
 

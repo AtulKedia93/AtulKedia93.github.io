@@ -11,7 +11,7 @@
 !TYPE     = git
 !URL      = https://bitbucket.org/rhaas80/lsuthorns.git    #temporary access
 !REPO_PATH= $2
+!CHECKOUT = LSUThorns/NSTracker
 
 #!TYPE     = svn
 #!URL      = https://svn.cct.lsu.edu/repos/numrel/$1/$2/trunk
-!CHECKOUT = LSUThorns/NSTracker

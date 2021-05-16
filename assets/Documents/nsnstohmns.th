@@ -11,4 +11,5 @@
 !TYPE     = git
 !URL      = https://bitbucket.org/knarrff/nstracker.git
 !REPO_PATH= $2
-!CHECKOUT = NSTracker
+!CHECKOUT =
+LSUThorns/NSTracker

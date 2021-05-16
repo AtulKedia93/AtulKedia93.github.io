@@ -9,7 +9,6 @@
 
 !TARGET   = $ARR
 !TYPE     = git
-!URL      = https://bitbucket.org/rhaas80/lsuthorns.git
+!URL      = https://bitbucket.org/knarrff/nstracker.git
 !REPO_PATH= $2
-!CHECKOUT =
-LSUThorns/NSTracker
+!CHECKOUT = LSUThorns/NSTracker

@@ -10,5 +10,6 @@
 !TARGET   = $ARR
 !TYPE     = git
 !URL      = https://bitbucket.org/knarrff/nstracker.git
-!REPO_PATH= ../../arrangements/$1/../../repos/nstracker
-!CHECKOUT = LSUThorns/NSTracker
+!REPO_PATH = ../../arrangements/$1/../../repos/nstracker
+!CHECKOUT =
+LSUThorns/NSTracker

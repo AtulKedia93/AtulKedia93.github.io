@@ -25,10 +25,22 @@
 									<header class="main">
 										<h1>News</h1>
 									</header>
+									<h2>New Paper on kilonovae and GW170817</h2>
+									We released a new article on kilonovae surrogate models and parameter estimation comparisons for EM- and GW- based observation. <a href=" https://arxiv.org/abs/2211.04363"> Link to the arxiv/2211.04363 </a><br>
+									We have developed new surrogate models for light curves resulting from kilonova and perform parameter estimation with them to reveal important agreement/disagreement between GW- and EM- estimates for the neutron star merger (NSM) GW170817/AT2017gfo ejecta material.<br>
+									What are surrogate models? These are substitute model for a mathematical function. In this case for estimating light curves from a particular set of NS-merger ejecta parameters. Performing full ratiative transfer simulations takes 1/2 hr on 10x128 cores ~ 20,000 threads, i.e. lots of t or $$$. To avoid the costs these Gaussian Process Regression based surrogates substitute for the complete simulation and can interpolate the LCs rapidly, ~5 mins, on local PCs!<br>
+									Why is building surrogates important? Due to the speed benefits mentioned above, But also because NSMs have been known to produce a broad range of ejecta material based on theoretical (more like numerical) estimates. They suggest a range of ejecta masses, velocities, distribution in space, and depend heavily on simulation setup and nuclear physics. This results in uncertainties in the kilonova signal prediction working in the forward direction. I.e. NSM simulation -> ejecta mass, distribution, espansion rate estimation -> kilonova LCs. Our surrogates make that '->' between ejecta and kilonova LCs essentially trivial!<br>
+									Vice-versa the uncertainties also makes it challenging to predict the NS parameters starting from the kilonova observation and working backwards. I.e. kilonova LCs observation -> estimating ejecta mass, distribution, expansion rate-> NS parameters. Our surrogates help here as well, hence making rapid parameter inference calculations possible. <br>
+									Next, we perform ejecta parameter estimation with these surrogate models to obtain the ejecta component masses and velocities for the event AT2017gfo/GW170817. We find that the EM-predicted ejecta and the GW-predicted ejecta properties do come closer into agreement due to the additional ejecta forms, but still disagree somewhat. The disagreement is especially striking in the masses, while the velocities remain unconstrained either way (Fig. 6).<br>
+									We also show the capabilities of our surrogate models that can produce LCs for a range of ejecta component form (shapes [dubbed 'morphology' in the paper]) expansion rate, observation azimuthal direction, and at any broadband filter within a range of wavelengths.<br>
+									With LIGO's next observing run starting early next year, it will be exciting to see many more multi-messenger events observed that, via means of studies such as this, will constrain the physics of the formation of the ejecta, and will shed light into the origin of heavy elements.<br>
+									The surrogates can be found here <a href=" https://github.com/markoris/surrogate_kne"> Link to the Github repo </a> and the radiative transfer simulations at <a href=" https://zenodo.org/record/7335961"> Link to the Zenodo repo </a> - November 2022 .
+									<br>
+									<br>
 									<h2>My research in popular news media</h2>
 									The popular-science magazine <i>New Scientist</i> ran an article on one of my papers from Notre Dame. <a href=" https://www.newscientist.com/article/2344898-gravitational-waves-could-reveal-the-existence-of-quark-matter/"> Link of the first news</a> The paper the article is about is this on <a href="  https://arxiv.org/abs/2203.05461">arXiv</a> and it has been accepted for publication ar <i>PRD</i>.
 									My PhD advisor Prof. Grant Mathews was interviewed for this article.
-									He also gave a talk the APS-DNP meeting this year and the talk was selected as a featured talk for the conference. See <a href=" https://www.eurekalert.org/news-releases/968439"> link of the second news</a>.
+									He also gave a talk the APS-DNP meeting this year and the talk was selected as a featured talk for the conference. See <a href=" https://www.eurekalert.org/news-releases/968439"> link of the second news </a> - October 2022.
 									<br>
 									<br>
 									<h2>Postdoc at RIT</h2>
@@ -36,18 +48,18 @@
 									<br>
 									<br>
 									<h2>Defended my Ph.D.</h2>
-									Very pleased to let you know that on 7/June/2022 I defended my Ph.D. at Notre Dame with my advisor being Prof. Grant Mathews. My dissertation title was <i>Relativistic matter in Neutron Star mergers and Big bang nucleosynthesis</i>, and it encompassed the neutron star merger paper I submitted recently and the work on big bang nucleosynthesis I have done over few years (see paper links in my CV for reference to what I am talking about).
+									Very pleased to let you know that on 7/June/2022 I defended my Ph.D. at Notre Dame with my advisor being Prof. Grant Mathews. My dissertation title was <i>Relativistic matter in Neutron Star mergers and Big bang nucleosynthesis</i>, and it encompassed the neutron star merger paper I submitted recently and the work on big bang nucleosynthesis I have done over few years (see paper links in my CV for reference to what I am talking about). - June 2022
 									<br>
 									<br>
 									<h2>Invited talk at the ET workshop</h2>
 									Einstein toolkit workshop <a href="https://einsteintoolkit.github.io/et2021uiuc/">website</a>. The talk discussed the workflow of preparing binary neutron star initial data using LORENE. The workflow for various different EoS formats, and grid systems were shown along with necessary unit discussion.
-									A full recording can be viewed for reference on ET's <a href="https://www.youtube.com/watch?v=-NUD-piBeek">YouTube</a> channel. Please direct questions to my email.
+									A full recording can be viewed for reference on ET's <a href="https://www.youtube.com/watch?v=-NUD-piBeek">YouTube</a> channel. Please direct questions to my email. - July 2021
 									<br>
 									<br>
 									<h2>Recieved the CRC Graduate award</h2>
 									Original news article <a href="https://physics.nd.edu/news-events/news/kedia-receives-the-2021-crc-award-for-research-computing-and-visualization/">news article</a>. Official 
 									<a href="https://crc.nd.edu/about/crc-award/">award website</a>.<br>
-									The award recognizes <em>"outstanding contributions in the areas of computational sciences and visualization. Such contributions may include, but are not limited to: Applications of high performance computation and/or visualization technology Development of algorithms, codes, software environments, or other tools for better using high performance computing and/or visualization."</em>
+									The award recognizes <em>"outstanding contributions in the areas of computational sciences and visualization. Such contributions may include, but are not limited to: Applications of high performance computation and/or visualization technology Development of algorithms, codes, software environments, or other tools for better using high performance computing and/or visualization." - June 2021</em>
 									
 									<br>
 									<br>

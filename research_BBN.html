@@ -27,52 +27,42 @@
 
 							<!-- Content -->
 								<section>
-									<header class="major">
-										<h2>Research work</h2>
+									<header class="main">
+										<h2>Big bang nucleosynthesis</h2>
 									</header>
-									<div class="posts">
-										<article>
-											<h3>Kilonova</h3>
-											<a href="research_Kilonova.html" class="image"><img src="images/lc_TPwind1_rp.png" alt="" style="width:480px;"/></a>
-											<h4>Surrogate kilonova models and parameter estimation</h4>
-											Kilonova emission generated using SuperNu, interpolated using Gaussian Process and used to infer the GW170817/AT2017gfo ejecta parameters <a href="https://doi.org/10.1103/PhysRevResearch.5.013168">[1]</a>. <br/>
-											<a href="https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html">Prof. Richard O'Shaughnessy</a>, <a href="https://mristic.space/">Marko Ristic</a>, Rochester Institute of Technology, Dr. Ryan Wollaeger et al. <a href="https://ccsweb.lanl.gov/astro/index.html">CTA, LANL</a> 
-											<ul class="actions">
-												<li><a href="research.html" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<h3>Binary neutron star mergers with Numerical Relativity</h3>
-											<a href="research_BNS_QHC.html" class="image"><img src="images/BNS_image.png" alt="" style="width:480px;"/></a>
-											<h4>Binary neutron star merger simulations</h4>
-											Phase transitions in Equations of state and their corresponding gravitational wave signatures from neutron star merger. Einstein Toolkit used for simulation of the coalescence <a href="https://doi.org/10.1103/PhysRevD.106.103027">[2]</a>. <br/>
-											<a href="https://physics.nd.edu/people/faculty/grant-j-mathews/">Prof. Grant Mathews</a>, University of Notre Dame, Dr. Hee Il Kim, Dr. In-Saeng Suh
-											<ul class="actions">
-												<li><a href="research.html" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<h3>Big Bang nucleosynthesis</h3>
-											<a href="research_BBN.html" class="image"><img src="images/universe.jpg" alt="" /></a>
-											<h4>Nuclear distribution in Big bang nucleosynthesis</h4>
-											Statistical mechanics approach to relativistic electron-nuclei scattering in the Big bang nucleosynthesis plasma <a href="https://doi.org/10.1103/PhysRevE.103.032101">[3]</a>, <a href="https://doi.org/10.1103/PhysRevD.101.123532">[4]</a>, <a href="https://doi.org/10.7566/JPSCP.31.011033">[5]</a>, <a href="https://doi.org/10.1103/PhysRevD.104.123534">[6]</a>.<br/>
-											Prof. Grant Mathews, University of Notre Dame, Dr. Nishanth Sasankan, Dr. Motohiko Kusakabe
-											<ul class="actions">
-												<li><a href="research.html" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<h3>Large Scale structure of Cosmology</h3>
-											<a href="research.html" class="image"><img src="images/large_scale.jpg" alt="" /></a>
-											<h4>Large scale structure</h4>
-											Scale of Homogeneity of the Cosmos with Quasars as tracers <a href="https://arxiv.org/abs/1611.07915">[7]</a>.<br/>
-											<a href="https://theory.tifr.res.in/pheno/people.html">Prof. Subhabrata Majumdar</a>, and Dr. Prakash Sarkar <br/>
-											Tata Institute of Fundamental Research, Mumbai, India
-											<ul class="actions">
-												<li><a href="research.html" class="button">More</a></li>
-											</ul>
-										</article>
+									
+									</p>
+									<div style="display:inline-block;vertical-align:top;">
+									<br>
+									
+									<p>I built a Multi-Species 3D Relativistic thermalization simulation technique usable to study the thermalization(or Brownian motion) of any system with various species of particles. Codes available in Ref. [2] and algorithm described in Ref. [3]. 
+									<br>
+									Further, I used this simulation tool to obtain the equilibrium statistics for baryons during Big bang nucleosynthesis (BBN) era of the early universe.</p>
+									<img src="images/schematic.jpg" alt="" style="width:800px;"/>
+									<figcaption> A schematic illustration of the algorithm for performing scatterings in the simulation code. Several frame changes and rotations are needed to be performed to make the scattering events solvable.</figcaption>
+									<br>
+									<iframe src="https://drive.google.com/file/d/19iwwb1pfJMXRH76I5rYK4mR1OVdqWe0G/preview" width="640" height="480" allowfullscreen></iframe> <figcaption> A 3D Multi-Specie Relativistic thermalization. Here electrons and positrons are describe by their relativistic Fermi-Dirac statistics, whereas protons- nonrelativistic in these temperatures- starts with zero energy and attains a Maxwell-Boltzmann distribution.</figcaption> <!--Movie_3D_KT_01 -->
+									<br>
+									<iframe src="https://drive.google.com/file/d/1d-gNjPvTTb4-n_qORIyO6lIxQmUbmYtL/preview" width="640" height="480" allowfullscreen></iframe> <figcaption> Same simulation for a 2D Multi-Specie Relativistic thermalization. </figcaption> <!--Movie_2D_KT_01-->
+									<br>
+									<iframe src="https://drive.google.com/file/d/18G4xkC-zlwGdijIsoFQ3gZm6MnsV2i00/preview" width="640" height="480" allowfullscreen></iframe> <figcaption> Same simulation for a 1D Multi-Specie Relativistic thermalization. </figcaption> <!--Movie_1D_KT_1-->
+									<br>
+									References:<br>
+									[1] <a href="https://github.com/AtulKedia93/Multicomponent_relativistic_thermlization">github.com/AtulKedia93/Multicomponent_relativistic_thermlization</a>  .
+									<br>
+									[2] AK, N. Sasankan, G.J. Mathews, M. Kusakabe, Simulations of multicomponent relativistic thermalization, <a href="https://doi.org/10.1103/PhysRevE.103.032101">Phys. Rev. E 103, 032101 (2021)</a>.
+									<br>
+									[3] M. Kusakabe, AK, G.J. Mathews, N. Sasankan, Distribution function of nuclei from e± scattering in the presence of a strong primordial magnetic field, <a href="https://doi.org/10.1103/PhysRevD.104.123534">Phys. Rev. E 103, 032101 (2021)</a>.
+									<br>
+									[4] N. Sasankan, AK, M. Kusakabe, G.J. Mathews, Analysis of the multicomponent relativistic Boltzmann equation for electron scattering in big bang nucleosynthesis, <a href="https://doi.org/10.1103/PhysRevD.101.123532">Phys. Rev. D 101, 123532 (2020)</a>.
+									<br>
+									[5] G.J. Mathews, AK, N. Sasankan, M. Kusakabe, Y. Luo, T. Kajino, D.G. Yamazaki, T. Makki, M.El Eid, Cosmological solutions to the Lithium problem, <a href="https://doi.org/10.7566/JPSCP.31.011033">JPS Conf. Proc. 31, 011033 (2020)</a>.
+									
+									<hr class="major" />
+									
 									</div>
+									
+									
 								</section>
 
 						</div>

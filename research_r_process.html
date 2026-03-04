@@ -28,18 +28,15 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h2>Kilonova</h2>
+										<h2><em>R</em> process</h2>
 									</header>
 									
 									<div style="display:inline-block;vertical-align:top;">
-									We released a new article on kilonovae surrogate models and parameter estimation comparisons for EM- and GW- based observation.[<a href="https://doi.org/10.1103/PhysRevResearch.5.013168"> Link to the open access paper</a>]<br><br>
-									We have developed new surrogate models for light curves resulting from kilonova and perform parameter estimation with them to reveal important agreement/disagreement between GW- and EM- estimates for the neutron star merger (NSM) GW170817/AT2017gfo ejecta material.<br><br>
-									What are surrogate models? These are substitute model for a mathematical function. In this case for estimating light curves from a particular set of NS-merger ejecta parameters. Performing full ratiative transfer simulations takes 1/2 hr on 10x128 cores ~ 20,000 threads, i.e. lots of t or $$$. To avoid the costs these Gaussian Process Regression based surrogates substitute for the complete simulation and can interpolate the LCs rapidly, ~5 mins, on local PCs!<br><br>
-									Why is building surrogates important? Due to the speed benefits mentioned above, But also because NSMs have been known to produce a broad range of ejecta material based on theoretical (more like numerical) estimates. They suggest a range of ejecta masses, velocities, distribution in space, and depend heavily on simulation setup and nuclear physics. This results in uncertainties in the kilonova signal prediction working in the forward direction. I.e. NSM simulation -> ejecta mass, distribution, espansion rate estimation -> kilonova LCs. Our surrogates make that '->' between ejecta and kilonova LCs essentially trivial!<br><br>
-									Vice-versa the uncertainties also makes it challenging to predict the NS parameters starting from the kilonova observation and working backwards. I.e. kilonova LCs observation -> estimating ejecta mass, distribution, expansion rate-> NS parameters. Our surrogates help here as well, hence making rapid parameter inference calculations possible. <br><br>
-									Next, we perform ejecta parameter estimation with these surrogate models to obtain the ejecta component masses and velocities for the event AT2017gfo/GW170817. We find that the EM-predicted ejecta and the GW-predicted ejecta properties do come closer into agreement due to the additional ejecta forms, but still disagree somewhat. The disagreement is especially striking in the masses, while the velocities remain unconstrained either way (Fig. 6).<br><br>
-									We also show the capabilities of our surrogate models that can produce LCs for a range of ejecta component form (shapes [dubbed 'morphology' in the paper]) expansion rate, observation azimuthal direction, and at any broadband filter within a range of wavelengths.<br><br>
+									Our paper on studing uncertainties due to neutron capture reaction rate unknowns in weak r-process abundances is now arXiv![<a href="https://doi.org/10.48550/arXiv.2602.12428">arXiv:2602.12428 [astro-ph.HE] (2026)</a>] We've studied the sources and amounts of uncertainties within neutron capture reaction rates and how they propagate in the weak r process.<br><br>
 
+									Feel free to email me with questions or if needed I can also meet and discuss any aspects of the paper, the ideas behind correlated and uncorrelated Monte Carlo, or systematic v statistical uncertainties over a zoom call.<br><br>
+
+									Here is a chart of nuclides showing the isotopes we find most impactful to at least one element in the nonmagnetized disk wind conditions.
 									<style>
 									  .screen-width-image {
 									    width: 40vw; /* Sets the image width to 75% of the screen width */
@@ -49,24 +46,11 @@
 									  }
 									</style>
 
-									<figure>
-										<img src="images/lc_TPwind1_rp.png" alt="Light curve from TPwind1 condition" class="screen-width-image" />
-										<figcaption style="text-align: center;">Light curves from our TPwind1 conditions fitting AT2017gfo data.</figcaption>
-									</figure>
-									
+									<img src="images/all_isotope_highest_MF14_consolidated_all_max_rates.png" alt="" class="screen-width-image" /><br><br>
 
+									This work was conducted in a collaboration between North Carolina State University, University of Notre Dame and Lawrence Livermore National Laboratory.<br><br>
 
-									With LIGO's next observing run starting early next year, it will be exciting to see many more multi-messenger events observed that, via means of studies such as this, will constrain the physics of the formation of the ejecta, and will shed light into the origin of heavy elements.<br><br>
-									The surrogates can be found here <a href=" https://github.com/markoris/surrogate_kne"> Link to the Github repo </a>, the radiative transfer simulations at <a href="https://zenodo.org/record/7335961"> Link to the Zenodo repo </a>, and the paper at <a href="https://doi.org/10.1103/PhysRevResearch.5.013168"> Phys. Rev. Res. 5, 013168 (2023) </a> - March 2023 .
-									<br><br>
-									This was done in a collaboration between Rochester Institute of Technology and the <a href="http://cta.lanl.gov/"> Center for Theoretical Astrophysics </a> at Los Alamos National Laboratory.<br><br>
-									
-									Follow-up papers on this topic:<br>
-									Y. Peng, M. Ristic, AK, et al., Kilonova Light-Curve Interpolation with Neural Networks, <a href="https://doi.org/10.1103/PhysRevResearch.6.033078">Phys. Rev. Res. 6, 033078 (2024)</a>.<br>
-									C. Fryer, A. Hungerford, ..., AK, et al., The Effect of the Velocity Distribution on Kilonova Emission, <a href="https://doi.org/10.3847/1538-4357/ad1036">Astrophys. J. 961, 9 (2024)</a>.<br>
-									M. Ristic, R. O'Shaughnessy, ..., AK, Interpolated kilonova spectra models: Examining the effects of a phenomenological, blue component in the fitting of AT2017gfo spectra, <a href="https://doi.org/10.1103/PhysRevResearch.5.043106">Phys. Rev. Res. 5, 043106 (2023)</a>.<br>
-
-									March 2026.
+									February 2026
 									<hr class="major" />
 									</div>
 									
